@@ -1,0 +1,88 @@
+.container-768 {
+	width: 768px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.main-wrapper-768 {
+	color: black;
+	background: url("../img/mainBackground.png");
+	background-size: cover;
+}
+
+.main-wrapper__header-768 {
+	padding-top: 36px;
+	margin-top: 0px;
+	padding-left: 13px;
+	margin-bottom: 17px;
+	font-family: 'Bebas Neue Bold';
+	font-size: 69px;
+	color: #f78c1f;
+}
+
+.main-wrapper__text-768 {
+	margin-top: -8px;
+	margin-bottom: 5px;
+	width: 600px;
+	padding-left: 12px;
+	font-size: 23px;
+	line-height: 29px;
+	color: #ffffff;
+}
+
+.li-768 {
+	width: 373px;
+	font-size: 17px;
+}
+
+.l-768-first {
+	position: relative;
+	margin-bottom: 10px;
+	padding-left: 70px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.l-768-first p {
+	margin-top: 14px;
+}
+
+.l-768-second {
+	position: relative;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	padding-left: 70px;
+	padding-bottom: 1px;
+}
+
+.l-768-second p {
+	margin-top: 9px;
+}
+
+.l-768-third {
+	position: relative;
+	margin-bottom: 9px;
+	padding-top: 5px;
+	padding-left: 70px;
+	padding-bottom: 1px;
+}
+
+.l-768-third p {
+	margin-top: 8px;
+}
+
+.l-768-four {
+	position: relative;
+	margin-bottom: 17px;
+	padding-top: 5px;
+	padding-left: 70px;
+	padding-bottom: 1px;
+}
+
+.l-768-four p {
+	margin-top: 8px;
+}
+
+.span-count-768 {
+	width: 290px;
+}

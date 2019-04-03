@@ -1,0 +1,391 @@
+body {
+	max-width: 100%;
+	margin: 0;
+	font-family: 'Open Sans Semibold', arial;
+	color: #ffffff;
+}
+
+select,
+input {
+	border: none;
+	outline: none;
+}
+
+.container {
+	width: 1920px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.main-wrapper {
+	display: flex;
+	background: url(../img/mainBackground.png) no-repeat center center;
+	background-size: cover;
+}
+
+.main-left-side {
+	padding-left: 310px;
+	margin-bottom: 32px;
+}
+
+.main-left-side__header {
+	margin-top: 36px;
+	margin-bottom: 0px;
+	font-family: 'Bebas Neue Bold';
+	font-size: 57px;
+	color: #f78c1f;
+}
+
+.main-left-side__text {
+	width: 489px;
+	margin-top: 9px;
+	margin-bottom: 22px;
+	font-family: 'Open Sans Semibold', arial;
+	font-size: 19px;
+	line-height: 24px;
+}
+
+.main-left-side-list {
+	position: relative;
+	padding-left: 0px;
+	font-family: 'Open Sans Semibold', arial;
+	list-style-type: none;
+}
+
+.main-left-side-list__elem {
+	width: 299px;
+	margin-bottom: 8px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 54px;
+	font-size: 14px;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.li-first:before {
+	position: absolute;
+	content: "";
+	width: 34px;
+	height: 34px;
+	left: 18px;
+	top: 6px;
+	background: url(../img/24-hours.png) no-repeat;
+	background-size: 81%;
+}
+
+.li-second {
+	padding-top: 10px;
+}
+
+.li-second:before {
+	position: absolute;
+	content: "";
+	width: 34px;
+	height: 34px;
+	left: 18px;
+	top: 55px;
+	background: url(../img/location.png) no-repeat;
+	background-size: 81%;
+}
+
+.li-third {
+	padding-top: 10px;
+}
+
+.li-third:before {
+	position: absolute;
+	content: "";
+	width: 34px;
+	height: 34px;
+	left: 20px;
+	top: 103px;
+	background: url(../img/forklift.png) no-repeat;
+	background-size: 74%;
+}
+
+.li-four:before {
+	position: absolute;
+	content: "";
+	width: 34px;
+	height: 34px;
+	left: 20px;
+	top: 152px;
+	background: url(../img/wallet.png) no-repeat;
+	background-size: 73%;
+}
+
+.main-right-side {
+	width: 376px;
+	height: 329px;
+	margin-left: 49px;
+	margin-top: 32px;
+	background: white;
+	color: #757575;
+}
+
+.main-right-side__header {
+	font-family: 'Open Sans Semibold', arial;
+	padding-top: 7px;
+	padding-left: 100px;
+	margin-bottom: -1px;
+	font-size: 17px;
+	text-transform: uppercase;
+	color: #333333;
+}
+
+.main-right-side__header-small {
+	font-family: 'Open Sans Semibold', arial;
+	padding-top: 7px;
+	padding-left: 129px;
+	margin-bottom: 0px;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-top: 0px;
+	color: #333333;
+}
+
+.form-left-side--full-size {
+	flex-basis: 203px;
+}
+
+.form-weight-wrapper-label {
+	display: flex;
+	position: relative;
+}
+
+.form-weight__toggle {
+	position: absolute;
+	display: block;
+	width: 10px;
+	height: 10px;
+	top: 47px;
+	left: 48px;
+	background: url(../img/form-toggle.png) no-repeat;
+	background-size: 86%;
+}
+
+.form-weight-wrapper-label input {
+	position: relative;
+	margin-left: 75px;
+	padding-left: 8px;
+	padding-top: 12px;
+	margin-top: 10px;
+	width: 30px;
+	align-self: center;
+	border-bottom: 1px solid #f78c1f;
+}
+
+.form-weight-wrapper-label:before {
+	position: absolute;
+	content: "";
+	width: 31px;
+	height: 3px;
+	left: 26px;
+	top: 50px;
+	background: #f78c1f;
+}
+
+.form-weight-wrapper-label:after {
+	position: absolute;
+	content: "";
+	width: 153px;
+	height: 3px;
+	left: 26px;
+	top: 50px;
+	background: #f78c1f;
+	opacity: 0.5;
+}
+
+.form-points-wrapper {
+	display: flex;
+}
+
+.form-text__weight {
+	padding-left: 25px;
+	padding-top: 24px;
+	font-size: 13px;
+}
+
+.form-stuff-wrapper--full-size {
+	margin-top: 18px;
+}
+
+.form-stuff-wrapper select {
+	margin-left: 21px;
+	padding-right: 65px;
+	margin-top: 3px;
+}
+
+.form-stuff__elem {
+	font-size: 10px;
+}
+
+.form-text__stuff {
+	font-size: 10px;
+	padding-left: 25px;
+	margin-top: 13px;
+	margin-bottom: 0px;
+}
+
+.form-name-wrapper-label input {
+	margin-left: 26px;
+	margin-top: 30px;
+}
+
+#file-input {
+	display: none;
+}
+
+.form-file-upload {
+	position: relative;
+	margin-top: 31px;
+	font-size: 11px;
+}
+
+.form-file__label {
+	position: relative;
+	/*margin-left: 21px;*/
+	padding-left: 7px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-right: 26px;
+	background: #faf7f3;
+	border: 1px solid #ffd29f;
+}
+
+.form-file__label:hover {
+	border: 1px solid #f78c1f;
+}
+
+.form-file-upload:before {
+	position: absolute;
+	content: "";
+	width: 29px;
+	height: 29px;
+	left: 123px;
+	top: -8px;
+	background: #f78c1f;
+	opacity: 0.5;
+}
+
+.form-file-upload:hover:before {
+	opacity: 1;
+}
+
+.form-file-upload:after {
+	position: absolute;
+	content: "";
+	width: 27px;
+	height: 29px;
+	left: 125px;
+	top: -8px;
+	background: url(../img/add.png) no-repeat center;
+	background-size: 50%;
+}
+
+.form-choose-ship--full-size {
+	margin-top: 21px;
+}
+
+.form-choose-ship--full-size label {
+	display: block;
+}
+
+.form-choose-ship__text {
+	position: relative;
+	padding-top: 15px;
+	padding-left: 14px;
+	font-size: 11px;
+	margin-bottom: 0px;
+}
+
+.form-choose-ship__radio {
+	display: none;
+}
+
+.form-choose-ship input [type=radio]:checked+label:before {
+	position: absolute;
+	content: "";
+	width: 20px;
+	height: 20px;
+	background: url(../img/form-checkbox-mark.png);
+}
+
+.text-top {
+	position: relative;
+}
+
+.text-top:before {
+	position: absolute;
+	content: "";
+	width: 12px;
+	height: 21px;
+	left: -2px;
+	top: 10px;
+	background: url(../img/form-checkbox-circle-hover.png) no-repeat center;
+	background-size: 85%;
+	opacity: 0.5;
+}
+
+.text-top:hover:before {
+	opacity: 1;
+}
+
+.text-bottom {
+	margin-top: 0px;
+	padding-top: 6px;
+	position: relative;
+}
+
+.text-bottom:before {
+	position: absolute;
+	content: "";
+	width: 12px;
+	height: 21px;
+	left: -2px;
+	top: 3px;
+	background: url(../img/form-checkbox-circle-hover.png) no-repeat center;
+	background-size: 85%;
+	opacity: 0.5;
+}
+
+.text-bottom:hover:before {
+	opacity: 1;
+}
+
+.form-phone {
+	margin-top: 22px;
+}
+
+.form-phone input {
+	width: 100%;
+}
+
+.form-submit-wrapper {
+	margin-top: 31px;
+	margin-left: 91px;
+}
+
+.form-submit-wrapper input {
+	padding-top: 12px;
+	padding-left: 50px;
+	padding-right: 52px;
+	padding-bottom: 11px;
+	font-size: 16px;
+	text-transform: uppercase;
+	background: #f78c1f;
+	color: #ffffff;
+}
+
+.form-submit-wrapper input:hover {
+	background: #f8ae63;
+}
+
+.form-submit-wrapper p {
+	width: 200px;
+	font-size: 10px;
+	line-height: 12px;
+	margin-top: 5px;
+	text-align: center;
+}
